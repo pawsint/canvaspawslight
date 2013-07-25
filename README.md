@@ -8,10 +8,10 @@ This is a downloadable Child-theme folder for WooThemes Canvas theme. This can b
 ## How do I use it?
 ------------------------
 1. Make sure you have Woothemes Canvas (at least Version 5.3.0) installed, 
-2. 2. Download the Child-Theme, 
-3. 3. Upload the ZIP file through the "Themes > Add New > Upload" screen in your WordPress dashboard.
-4. 4. Activate the Child-Theme through the 'Themes' menu in WordPress. 
-5. 5. Access the features from the WooThemes Options Panel > PAWS Settings
+2. Download the Child-Theme, 
+3. Upload the ZIP file through the "Themes > Add New > Upload" screen in your WordPress dashboard.
+4. Activate the Child-Theme through the 'Themes' menu in WordPress. 
+5. Access the features from the WooThemes Options Panel > PAWS Settings
 
 ## Can I change it?
 ------------------------
