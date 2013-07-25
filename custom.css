@@ -1,0 +1,297 @@
+﻿/*
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it
+is easier to update the theme. Simply copy an existing style
+from style.css to this file, and modify it to your liking. */
+
+/* GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+/* COSMETICS STYLES
+-------------------*/
+.home .breadcrumb,.nocomments,.home .title {display:none}
+.widget_woo_subscribe .social {text-align:left}
+#wrapper {margin-top:5px !important, top:3px}
+#header {padding-bottom: 10px !Important; padding-top: 10px !Important}
+#main-nav {left:9px;min-height: 40px !Important; max-height: 80px !Important;}
+#social-nav {position:absolute; z-index: inherit;}
+#navigation { margin-bottom: 15px; } Decrease the default spacing below the main navigation. 
+
+/* ADDITIONAL CUSTOM MENUE */
+#secondary-menu-container {
+    margin: 0 auto;
+    top: -20px;
+    z-index: 9250;
+}
+.custom-menu-location { margin-top:-20px;}
+/* margin-top:-50px !important;margin-bottom:20px; position: relative; z-index: 1; width: 100%; margin-left: 0px; */
+
+/* TOPAD AREA*/
+#topad {
+    max-width:468px;
+    max-height: 60px;
+    float: right;
+    margin: 0px;
+}
+
+/* Additional Header Widget Left */
+.header-widget-l { width:468px; max-width: 468px; height: 40px; max-height: 60px; margin:0; float:left;}
+.header-widget-l .widget { margin-bottom:0;}
+.header-widget-l h3 { margin-bottom:0px; border:none;}
+
+/* Additional Header Widget Right*/
+.header-widget-r { width:468px; max-width: 468px; height: 40px; max-height: 60px; margin:0; float:right;}
+.header-widget-r .widget { margin-bottom:0;}
+.header-widget-r h3 { margin-bottom:0px; border:none;}
+
+
+
+/* WPML STYLES
+--------------*/
+#flags_language_selector {float:right}
+#flags_language_selector img {padding-left:10px}
+#flags_language_selector img {border:none;}
+/*#flags_language_selector img {border:1px solid #f1f1f1}*/
+#flags_language_selector li.wpml_flags .not-last {margin-right:-20px}
+
+/* LOGO
+-------------*/
+#logo {margin-top:5px; margin-right:2px; margin-bottom:4px; margin-left: 5px; max-width:90px}
+#logo {min-height: 29px !important}
+#logo {width:87px;height: 29px !important}
+#logo .site-title {display: none !important}
+#logo .site-description  {display: none !important}
+
+/* MEGAMENU
+-------------*/
+#megaMenu {
+  border: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f5f5f5 !important;
+  background: #f5f5f5 url(../images/vanilla_bkg.png) top left repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#f5f5f5));
+  background: -webkit-linear-gradient(top, #fefefe, #f5f5f5);
+  background: -moz-linear-gradient(top, #fefefe, #f5f5f5);
+  background: -ms-linear-gradient(top, #fefefe, #f5f5f5);
+  background: -o-linear-gradient(top, #fefefe, #f5f5f5);
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  border-radius: 6px !important;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+}
+
+#megaMenu ul.megaMenu{padding-left:3px !important;}
+
+/* SEARCH BOX
+-------------*/
+#nav-search.icon-search {position:absolute;right:5px}
+#nav-search {margin-right:9px; top:0px; padding-top:0px; max-width:150px;}
+.searchform input.s, #searchform input#s {padding: 2px; width: 85%; margin: 0px;border: medium none; background: none repeat scroll 0% 0% transparent; color: rgb(119, 119, 119); height: 24px}
+#search_main {height:20px;}
+
+
+.calp-agenda-widget-view {
+    font-size: 0.8em !important;
+    overflow: hidden;
+    border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0% 0% transparent;
+    border: none;
+    /* 1px solid rgb(216, 216, 216);*/
+    padding: 3px;
+}
+
+.calp-agenda-widget-view .calp-widget-title h2 {
+    font-size: 14px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+
+
+/*
+@font-face {
+  font-family: 'Social';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/social.eot');
+  src: url('fonts/social.eot?#iefix') format('embedded-opentype'), url('fonts/social.woff') format('woff'), url('fonts/social.ttf') format('truetype'), url('fonts/social.svg#woo-social') format('svg');
+}
+*/
+
+/* FONT AWESOME SOCIAL ICONS NAVIGATION
+-------------*/
+#navigation ul.rss li.facebook a:before {
+  content: "\f09a";
+}
+#navigation ul.rss li.twitter a:before {
+  content: "\f099";
+}
+#navigation ul.rss li.youtube a:before {
+  content: "\f167";
+}
+#navigation ul.rss li.linkedin a:before {
+  content: "\f0e1";
+}
+#navigation ul.rss li.googleplus a:before {
+  content: "\f0d5";
+}
+#navigation ul.rss li.flickr a:before {
+  content: "\f16e";
+}
+#navigation ul.rss li.dribbble a:before {
+  content: "\f17d";
+}
+#navigation ul.rss li.instagram a:before {
+  content: "\f16d";
+}
+#navigation ul.rss li.pinterest a:before {
+  content: "\f0d2";
+}
+
+/* FONT AWESOME SOCIAL ICONS HEADER
+-------------*/
+#header ul {
+  margin-bottom: 1.618em;
+}
+#header ul.rss li a {
+  height: 1em;
+  width: 1em;
+  /*text-indent: -999px; */
+  display: block;
+  font-size: 1em;
+  padding: .5em;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  /*background: #999; */
+  color: #999;
+  border-radius: 3px !important;
+}
+#header ul.rss li a:before {
+  font-family: "FontAwesome";
+  content: "\f00d";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  text-indent: 0;
+  line-height: 2;
+}
+#header ul.rss li a:hover {
+  opacity: 0.8;
+}
+#header ul.rss {
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  float: right;
+}
+#header ul.rss:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header ul.rss.cart-enabled {
+  margin-right: 85px;
+}
+#header ul.rss li {
+    float: left;
+}
+#header ul.rss li a {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: .5em;
+}
+#header ul.rss li.sub-email a:before {
+  content: "\f003";
+}
+#header ul.rss li.sub-rss a:before {
+  content: "\f09e";
+}
+#header ul.rss li.facebook a:before {
+  content: "\f09a";
+}
+#header ul.rss li.twitter a:before {
+  content: "\f099";
+}
+#header ul.rss li.youtube a:before {
+  content: "\f167";
+}
+#header ul.rss li.linkedin a:before {
+  content: "\f0e1";
+}
+#header ul.rss li.googleplus a:before {
+  content: "\f0d5";
+}
+#header ul.rss li.flickr a:before {
+  content: "\f16e";
+}
+#header ul.rss li.dribbble a:before {
+  content: "\f17d";
+}
+#header ul.rss li.instagram a:before {
+  content: "\f16d";
+}
+#header ul.rss li.pinterest a:before {
+  content: "\f0d2";
+}
+
+/* BREADCRUMB
+--------------------*/
+.breadcrumb {
+    padding: 8px 15px;
+    margin: 0px 0px 20px;
+    list-style: none outside none;
+    background-color: none !Important;
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+/* REVOLUTION SLIDER
+--------------------*/
+.homeslider {margin-top:-40px !important;margin-bottom:20px; position: relative; z-index: 1; width: 100%; margin-left: 0px;}
+.nodisplay {display: none;}
+.homeslider .rev_slider_wrapper {position: relative !important; z-index: 1 !important;}
+.rounded .rev_slider_wrapper { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);}
+.homesliderwrapper {position: relative; margin-left: 0px; margin-right: 0px;}
+.homesliderwrapper .homeslider {margin-left: 0px;}
+
+
+/* VISUAL COMPOSER
+--------------------*/
+.wpb_vc_text_separator > .wpb_element_wrapper {
+  background-image: url(img/vc/threedot.png);
+  background-repeat: repeat-x;
+  background-position: center center;
+  padding: 0;
+  height: 31px;
+  min-height: 31px;
+}
+
+/* GOOGLE MAPS 
+--------------------*/
+	
+.gmap { width: 100%; height: 400px; margin-bottom: 35px; background: #eee; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); overflow:hidden;}
+#gmap_inner { width: 100%; height: 400px; }
+#gmap_inner img { max-width: none; }
+
+/* DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go below this line */
+
+}
